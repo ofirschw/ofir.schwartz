@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<h1><strong>Welcome to my form page</strong></h1>
+<br>
+<div class = "form">
+<form>
+<h2><strong>Please fill your details here</strong></h2>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" placeholder="Your name.."><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+<label for="Email">Email:</label><br>
+<input type="email" id="Email" name="Email" placeholder="Your Email.."><br>
+<label for="Birthday">Birthday:</label><br>
+<input type="date" id="Birthday" name="Birthday"><br>
+<label for="Password">Password:</label><br>
+<input type="password" id="Password" name="Password" placeholder="Your password.."><br>
+  <label for="image">Upload image:</label><br>
+<input type="file" id="image" name="image"><br>
+<p>You are required to fill in all the <br> fields above, mark V when all the fields are full:
+</p>
+<label for="check">i have read and accept:</label>
+<input type="checkbox" id="check" name="check"><br><br>
+
+
+<input type="submit" value="Submit">
+
+</form>
+</div>
+<br>
+<div class="container">
+  <form action="action_page.php">
+    <br>
+    <h2> <strong> contact form </strong> </h2>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+    <label for="Adress">Address</label>
+      <input type="text" id="Adress" name="Adress" placeholder="Your adress.."> <br>
+    <label for="subject">Note</label> <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <br></bt>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
