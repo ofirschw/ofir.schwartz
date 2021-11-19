@@ -2,11 +2,9 @@
 .check {
 	display: grid;
 	grid-template-areas:
-    "header header header"
-    "left main right"
+    "header main right"
+    "left main  right  "
     "footer footer footer";
-	grid-template-rows: 70px 1fr 50px;
-	grid-template-columns: 45% 1fr 10%;
 	grid-gap: 7px;
     height: 700px;
 }
@@ -14,10 +12,11 @@
 #item1 {
     grid-area: header;
     background: gray;
-    
+
 }
 
 #item2 {
+    position: static;
     grid-area: left;
     background: #52ab98;
 
@@ -26,6 +25,7 @@
 #item3 {
     grid-area: main;
     background: #c8d8e4;
+    text-align: center;
 }
 
 #item4 {
@@ -38,6 +38,8 @@
     background: black;
 }
 
+
+
 @media (max-width: 768px) {
     .check {
     background: blue;
@@ -49,4 +51,19 @@
     "footer footer footer";
     grid-template-rows: 50px 30px 1fr 60px 30px;
     }
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  30px); }
+    65%  { transform: translate(0, 100px); }
+    to   { transform: translate(0, 30px); }
 }
