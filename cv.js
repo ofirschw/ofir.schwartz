@@ -6,16 +6,16 @@ function func_name() {
 function myFunction() {
     const name = document.getElementById("check");
     if (!name.checkValidity()) {
-        document.getElementById("demo").innerHTML = name.validationMessage;
+        document.getElementById("first").innerHTML = name.validationMessage;
     } else {
-        document.getElementById("demo").innerHTML = "Input OK";
+        document.getElementById("first").innerHTML = "Input your name is OK";
     }
 
     const text = document.getElementById("subject");
-    if (!inpObj3.checkValidity()) {
-        document.getElementById("demo3").innerHTML = text.validationMessage;
+    if (!text.checkValidity()) {
+        document.getElementById("second").innerHTML = text.validationMessage;
     } else {
-        document.getElementById("demo3").innerHTML = "Input OK";
+        document.getElementById("second").innerHTML = "Input of your subject OK";
     }
 
 }

@@ -116,3 +116,11 @@ text-align: center;  border-radius: 4px;
 textarea#subject {
     width: 90%;
 }
+
+input#check {
+    width: 90%;
+}
+
+input#Adress {
+    width: 90%;
+}

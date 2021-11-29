@@ -35,7 +35,7 @@
 
 #item5 {
     grid-area: footer;
-    background: black;
+    background: blue;
 }
 
 
@@ -66,4 +66,61 @@
     from { transform: translate(0,  30px); }
     65%  { transform: translate(0, 100px); }
     to   { transform: translate(0, 30px); }
+}
+
+input[type=text] {
+  width:30%;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  width: 90%;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 60%;
+  padding: 20px;
+    text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2b6777;
+  color: white;
+  padding: 12px 20px;
+        width: 90%;
+  border: none;
+text-align: center;  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+textarea#subject {
+    width: 90%;
+}
+
+input#check {
+    width: 90%;
+}
+
+input#Adress {
+    width: 90%;
 }
