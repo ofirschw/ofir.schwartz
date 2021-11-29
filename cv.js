@@ -1,5 +1,5 @@
-function myName() {
-    console.log("my name is Alon Erlich");
+function func_name() {
+    console.log('ofir schwartz');
 }
 
 
